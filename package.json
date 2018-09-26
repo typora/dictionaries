@@ -1,0 +1,10 @@
+{
+  "name": "dict",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "set NODE_ENV=production && set WEB_CONCURRENCY=1 && node app.js"
+  },
+  "dependencies": {
+    "serve-handler": "file:serve-handler"
+  }
+}
